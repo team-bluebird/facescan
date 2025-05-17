@@ -4,11 +4,11 @@ import MainBtn from "@/components/btn/MainBtn";
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex min-h-screen flex-col items-center justify-center">
       <img
         src="/bg/main.png"
         alt=""
-        className="absolute inset-0 -z-10 mx-auto h-full min-h-[813px] max-w-xl object-contain"
+        className="absolute inset-0 top-5 -z-10 mx-auto h-full max-w-xl object-contain"
       />
 
       <h1
